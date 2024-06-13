@@ -69,6 +69,7 @@ font-face {
   }
   
   .container {
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
@@ -78,7 +79,6 @@ font-face {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1190px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -101,9 +101,7 @@ font-face {
 }
 
   .menu-button:before {
-    content: "";
-    width: 100%;
-    height: 21%;
+    content: "";    
     border-radius: 5px;
     background-color: #ffffff;
     position: absolute;
@@ -111,9 +109,7 @@ font-face {
 }
 
   .menu-button:after {
-    content: "";
-    width: 100%;
-    height: 21%;
+    content: "";    
     border-radius: 5px;
     background-color: #ffffff;
     position: absolute;
@@ -121,9 +117,7 @@ font-face {
     top: 10%;
 }
 
-  .menu-button-label {
-    width: 100%;
-    height: 21%;
+  .menu-button-label {    
     margin-top: -0.1em;
     border-radius: 5px;
     background-color: #ffffff;
@@ -136,7 +130,6 @@ font-face {
     display: flex;
     font-size: 13px;
     font-weight: regular;
-    font-family: "OpenSans", Arial, sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     list-style-type: none;
@@ -156,8 +149,7 @@ font-face {
     margin: 0;
   }
   
-  .title {
-    font-family: "OpenSans", Arial, sans-serif;
+  .title {    
     line-height: 1.67;
     font-size: 45px;
     font-weight: bold;
@@ -174,8 +166,7 @@ font-face {
     z-index: 1;
   }
 
-  .title-trend {
-    font-family: "OpenSans", Arial, sans-serif;
+  .title-trend {    
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -261,7 +252,6 @@ font-face {
 
   .box {
     display: flex;
-    max-width: 1200px;
     margin: 63px auto 1px auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -293,8 +283,7 @@ font-face {
     margin-right: 20px;
   }
       
-  .subtitle-link {
-    font-family: "OpenSans", Arial, sans-serif;
+  .subtitle-link {    
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -311,8 +300,7 @@ font-face {
     margin-bottom: 10px;
   }
   
-  .item-title {
-    font-family: "OpenSans", Arial, sans-serif;
+  .item-title {   
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
@@ -330,23 +318,20 @@ font-face {
     margin-bottom: 49px;
   }
   
-  .data {
-    font-family: "OpenSans", Arial, sans-serif;
+  .data {    
     font-size: 12px;
     color: #888888;
     font-weight: regular;
   }
   
-  .author {
-    font-family: "OpenSans", Arial, sans-serif;
+  .author {   
     font-size: 12px;
     color: #000000;
     font-weight: bold;
     margin-left: 20px;
   }
   
-  .text {
-    font-family: "OpenSans", Arial, sans-serif;
+  .text {    
     font-size: 15px;
     font-weight: regular;
     color: #0f0d0e;
@@ -358,8 +343,7 @@ font-face {
     margin-left: 124px;
   }
   
-  .headline-sidebar {
-    font-family: "OpenSans", Arial, sans-serif;
+  .headline-sidebar {    
     font-size: 14px;
     text-transform: uppercase;
     color: #0f0d0e;
@@ -426,7 +410,7 @@ font-face {
     font-size: 13px;
     color: #000000;
     opacity: 0.541;
-    font-family: "OpenSans";
+    font-family: "OpenSans", Arial, sans-serif;
     font-weight: regular;
     box-sizing: border-box;
     width: 222px;
@@ -499,7 +483,7 @@ font-face {
     font-size: 13px;
     color: #000000;
     opacity: 0.541;
-    font-family: "OpenSans";
+    font-family: "OpenSans", Arial, sans-serif;
     font-weight: regular;
     box-sizing: border-box;
     width: 100%;
@@ -537,8 +521,7 @@ font-face {
   }
   
   .tag-list {
-    background-color: rgba(253, 249, 241, 0);
-    font-family: "OpenSans", Arial, sans-serif;
+    background-color: rgba(253, 249, 241, 0);    
     font-size: 12px;
     font-weight: bold;
     border: 3px solid #eeeeee;
@@ -556,8 +539,7 @@ font-face {
     margin-top: 60px;
   }
   
-  .category {
-    font-family: "OpenSans", Arial, sans-serif;
+  .category {    
     font-size: 14px;
     color: #000000;
     font-weight: bold;
@@ -570,8 +552,7 @@ font-face {
     color: #b59f5b;
   }
   
-  .quantity {
-    font-family: "OpenSans", Arial, sans-serif;
+  .quantity {   
     font-size: 12px;
     color: #b59f5b;
     font-weight: bold;
@@ -586,15 +567,13 @@ font-face {
   .goods {
     display: flex;
     justify-content: space-between;
-    padding: 0 0 55px 0;
-    max-width: 1200px;
-    margin: auto;
+    padding: 0 0 100px 0;    
   }
 
   .card-good {
     display: flex;
     flex-direction: column;
-    flex-basis: 370px;
+    flex-basis: 33%;
   }
 
   .goods-image {
@@ -624,7 +603,7 @@ font-face {
   .product-information {
     border: 2px solid #b59f5b;
     padding: 35px 10px 16px;
-    margin-top: -30px;
+    margin: -30px 20px;
     flex-grow: 1;
   } 
 
@@ -652,16 +631,17 @@ font-face {
 
   .shop {
     box-sizing: border-box;
-    width: 45%;
     height: 49px;
-    margin-left: 100px;
+    width: 180px;
+    margin-left: 73px;
     border: 0;
     background-color: #b59f5b;
     font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 15px 0 0 23px;
+    padding: 16px 0;
+    text-align: center;
   }
 
   .shop-doll {
@@ -675,7 +655,7 @@ font-face {
   .footer {
     display: flex;
     background-color: #f3f7f5;
-    max-width: 1150px;
+    
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -718,8 +698,7 @@ font-face {
     margin: 69px auto 45px auto;
     text-align: center;
     font-size: 12px;
-    color: #999999;
-    font-family: "OpenSans", Arial, sans-serif;
+    color: #999999;    
     font-weight: bold;
   }
 
@@ -763,8 +742,7 @@ font-face {
   .popup-heading {
     font-size: 20px;
     text-transform: uppercase;
-    color: #0f0d0e;
-    font-family: "OpenSans", Arial, sans-serif;
+    color: #0f0d0e;    
     font-weight: bold;
     text-align: center;
   }
@@ -802,8 +780,7 @@ font-face {
   }
 
   .reques {
-    display: block;
-    font-family: "OpenSans", Arial, sans-serif;
+    display: block;    
     font-size: 14px;
     margin: 35px 0 10px 0;
   }
@@ -854,8 +831,7 @@ font-face {
   .popup-btn {
     width: 100%;
     height: 54px;
-    color: #ffffff;
-    font-family: "OpenSans", Arial, sans-serif;
+    color: #ffffff;   
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
@@ -879,8 +855,11 @@ font-face {
 
   @media (max-width: 640px) {
   .container {
-    margin: 0 auto;
-    padding: 0 0 53px;
+    margin: 40px auto;
+  }
+
+  .new {    
+    margin: 0 20px;
   }
 
   .header {
@@ -910,9 +889,8 @@ font-face {
     font-size: 24px;
   }
 
-  .title-trend {
-    font-family: "OpenSans", Arial, sans-serif;
-    padding: 58px 0 28px 0;
+  .title-trend {   
+    padding: 20px 0 28px 0;
   }
 
   .trands {
@@ -924,12 +902,16 @@ font-face {
     max-width: 640px;
   }
 
-  .page {
-    width: 90%;
+  .last-post {
+    margin: 10px 0;
   }
 
   .item {
     display: none;
+  }
+
+  .item-title {
+    margin-right: 25px;
   }
 
   .news {
@@ -941,33 +923,49 @@ font-face {
     display: block;
   }
 
+  .page {
+    width: 100%;
+  }
+
+  .text {
+    margin-right: 25px;
+  }
+
   .item-title, .text {
     text-align: start;
   }
 
-  .headline-sidebar {
-    font-size: 24px;
-  }  
-
   .sidebar {
-    width: 336px;
-    margin: auto;
-    margin-left: 34px;
+    width: 100%;
+    margin: 40px 20px;
+  }
+
+  .headline-sidebar {
+    font-size: 20px;
+  } 
+
+  .search-field {
+    width: 100%;
   }
 
   .text-search {
-    width: 285px;
+    width: 100%;
   }
-
+    
   .goods {
     flex-direction: column;
     justify-content: center;
-    width: 90%;
+    margin: 0 20px;
+    padding: 0 0 50px 0;
   }
 
   .card-good {
     margin: 30px 0;
   }  
+
+  .shop {
+    width: 150px;
+  }    
 
   .footer {
     min-width: 336px;
@@ -980,13 +978,13 @@ font-face {
 
 
   @media (max-width: 640px) and (orientation: landscape) {
-  .trands {
-   grid-template-columns: repeat(2, 2fr);
-}
+   .trands {
+     grid-template-columns: repeat(2, 2fr);
+    }
 
-.radio-button-no {
-  margin-left: 33px;
-}
+   .radio-button-no {
+    margin-left: 33px;
+  }
 }
 
 
@@ -1047,12 +1045,12 @@ font-face {
   }
 
   .last-post {
-    margin-left: 0;
-    width: 95%;
+    margin: 10px 0;
+    width: 380px;
   } 
 
   .sidebar {
-    margin-left: 4%;
+    margin: 0 30px;
   }
 
   .new-next {
@@ -1065,17 +1063,17 @@ font-face {
 
   .goods {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
+    padding: 0 0 50px 0; 
   }
 
   .card-good {
    flex-basis: 50% 
   }
 
-  .footer {
-    width: 90%;
-  }
+  .shop {
+    width: 150px;
+  }    
 
   .radio-button-no {
     margin-left: 33px;
