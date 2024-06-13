@@ -654,8 +654,7 @@ font-face {
     
   .footer {
     display: flex;
-    background-color: #f3f7f5;
-    
+    background-color: #f3f7f5;   
     align-items: center;
     justify-content: center;
     margin: auto;
